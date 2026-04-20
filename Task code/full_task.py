@@ -11,15 +11,15 @@ from ucl.unitreeConnection import unitreeConnection, HIGH_WIFI_DEFAULTS
 from ucl.enums import MotorModeHigh, GaitType
 
 # ================= CONFIG =================
-FRONT_CAM_URL = "http://192.168.137.122/stream"
-DOWN_CAM_URL  = "http://192.168.137.181/stream"
+FRONT_CAM_URL = "http://"ENTER URL HERE"/stream"
+DOWN_CAM_URL  = "http:/"ENTER URL HERE"/stream"
 
 OBJECT_MODEL_PATH = "best.pt"
 HUMAN_MODEL_PATH  = "yolov8n.pt"
 
-ESP32_IP = "http://192.168.137.216"
+ESP32_IP = "http://"ENTER URL HERE""
 
-OBJECT_LABEL = "medicines"
+OBJECT_LABEL = " " #enter target label here
 HUMAN_LABEL  = "person"
 
 REFERENCE_IMAGE_PATH = "empty_gripper.jpg"
